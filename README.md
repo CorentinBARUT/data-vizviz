@@ -34,7 +34,7 @@
 
 <p align="center">
   <figure>
-    <img src="img/pendulaire_2_pie_chart.png" width="50%" alt="" />
+    <img src="img/pendulaire_2_pie_chart.jpg" width="50%" alt="" />
     <figcaption> breakdown of means of transport to work in 2023 </figcaption>
   </figure>
 </p>
@@ -54,15 +54,14 @@ Switzerland’s pendulaires—daily commuters—form the backbone of its mobilit
 
 We chose OFS datasets because they are collected in Switzerland, offering the most comprehensive and trustworthy data on our topic, and are freely accessible. Currently, we mainly rely on three complementary datasets:
 
-- [Pendulaire 1 dataset] (https://github.com/com-480-data-visualization/data-vizviz/datasets/pendulaire_1.xlsx)
--
--
+- <a href="https://github.com/your-repo/datasets/pendulaire_2.xlsx" style="font-size: 1.2em; text-decoration: none;">📄 Pendulaire 2 dataset</a> This dataset shows the distribution and number of people by vehicle type between 1990 and 2023.
+- <a href="https://github.com/your-repo/datasets/pendulaire_4.xlsx" style="font-size: 1.2em; text-decoration: none;">📄 Pendulaire 4 dataset</a> This dataset shows the number of commuters by canton and type of activity between 2010 and 2023.
+- <a href="https://github.com/your-repo/datasets/pendulaire_5.xlsx" style="font-size: 1.2em; text-decoration: none;">📄 Pendulaire 5 dataset</a> this dataset gives us the number of connections between 2 cities (quadn there are more than 5 connections), for the years 2014, 2028 and 2020
 
 We’re also keen to explore additional datasets to enrich our visualizations with correlated insights. Below are potential datasets that could enhance our work:
   
--
--
--
+- <a href="https://github.com/your-repo/datasets/pendulaire_1.xlsx" style="font-size: 1.2em; text-decoration: none;">📄 Pendulaire 1 dataset</a> This dataset gives us the number of people making intra- or extra-communal and intra- or extra-cantonal trips between 2018 and 2023.
+- <a href="https://github.com/your-repo/datasets/pendulaire_3.xlsx" style="font-size: 1.2em; text-decoration: none;">📄 Pendulaire 3 dataset</a> This dataset gives us the number of people for intervals of time and distance in their pendualary movements, between 1990 and 2023.
 
 OFS data is high-quality, standardized (CSV/XLS), and publicly available, requiring minimal scraping. However, preprocessing is needed: PEND lacks GPS but needs aggregation (e.g., canton-level flows); MTMC has detailed samples but requires filtering for commuters and handling missing values (e.g., unreported modes). Infrastructure data needs spatial joining with commuter stats. Cleaning involves normalizing units (km/minutes), deduplicating entries, and aligning years (e.g., 2020-2022). These datasets suit visualization goals with moderate effort, leveraging OFS’s reliability.
 
